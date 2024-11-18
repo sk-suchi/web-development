@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <form action="post">
+     <div>   
+    <label for="fullName">FullName:</label>
+    <input type="text" name="fullname" id="fullname">
+</div> <br><br>
+<div>   
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+</div> <br><br>
+<div>   
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
+</div> <br><br>
+<div>   
+    <label for="dob">Date of Birth:</label>
+    <input type="date" name="dob" id="dob">
+</div> <br><br>
+<div>   
+    <label for="image">Photo:</label>
+    <input type="file" name="image" id="image">
+</div> <br><br>
+<div>   
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="gender" value="male"> Male <!radio button is only for one option>
+    <input type="radio" name="gender" id="gender" value="female"> Female
+</div> <br><br>
+<div>   
+    <label for="religion">Religion:</label>
+    <input type="checkbox" name="religion" id="hindu" value="hindu"> Hindu
+    <input type="checkbox" name="religion" id="muslim" value="muslim"> Muslim
+</div> <br><br>
+<div><label for="department">Depertment:</label>
+    <select name="department">
+        <option value="CSE">CSE</option>
+        <option value="EEE">EEE</option>
+        <option value="ECE">ECE</option>
+        <option value="ME">ME</option>
+        <option value="CE">CE</option>
+    </select>
+</div><br>
+<div> 
+    <label for="message">Message:</label><br>
+    <textarea col="10" rows="5"></textarea>
+</div>
+<div>
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+
+</div>
+
+
+    </form>
+</body>
+</html>

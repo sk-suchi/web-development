@@ -1,0 +1,46 @@
+.blog{
+    border:5px solid black;
+    border-radius:30px ;
+    margin:40px;
+    padding:40px 80px;
+    color:rgb(17, 3, 95);
+    height:200px;
+    width:800px; 
+
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+h1{
+color:rgb(144, 0, 255);
+background-color:rgb(231, 136, 186);
+height:50px;
+width:75%;
+}
+p{
+color:rgb(255, 85, 0);
+font-size:25px;
+font-weight:800;
+font-family:sans-serif;
+}
+
+#rahim{
+font-size: 15px;
+color:rgb(22, 21, 20);
+}
+.friend{
+font-size: 15px;
+color:rgb(41, 188, 15);
+font-family: 'Courier New', Courier, monospace;
+.dim{
+    color:rgb(215, 8, 8);
+}
+
+}
+img{
+width:10%;
+height:10%;
+}

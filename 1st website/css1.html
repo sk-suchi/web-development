@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+h1{
+    color:green;
+}
+h1:hover{
+    color:rgb(238, 107, 14);
+    font-size:30px;
+   
+}
+.special:hover{
+    color:red;
+    font-size:30px;
+    
+}
+input:focus{
+    color:blueviolet;
+}
+li:nth-child(2n+1){
+    background-color: crimson;
+}
+a:visited{
+    color: purple;
+}
+body{
+    counter-reset: section;
+}
+p::before{
+    counter-increment: section;
+    content:"💖" counter(section)":";
+}
+
+    </style>
+</head>
+<body>
+    <h1>Mango when ripe</h1>
+    <h1>Papaya when ripe</h1>
+    <h1>Orange when ripe</h1>
+    <h1 class="special">Apple when ripe</h1>
+    <b>Enter your purple password</b>
+    <input name="Password" type="password">
+<br>
+<ul>
+    <li>Lichi</li>
+    <li>Green apple</li>
+    <li>Apple</li>
+    <li>Avocado</li>
+    <li>Cherry</li>
+</ul>
+now we're gonna add two website link below.If we visit the link it will change its color to purple<br>
+<a href="https://www.programming-hero.com/">Programming Hero</a><br>
+<a href="https://www.youtube.com/">Youtube</a>
+
+<p>Rosogolla</p>
+<p>Khir chomchom</p>
+<p>Rashmalai</p>
+<p>Sondesh</p>
+<p>Irani vog</p>
+
+
+
+</body>
+</html>
